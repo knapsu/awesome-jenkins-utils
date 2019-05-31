@@ -117,9 +117,11 @@ class PipelineUtils implements Serializable {
      * @param config.changeLogMessage?: optional string for custom change log message to attach
      * @param config.channel?: optional string for sending notification to @individual or #group
      */
+    /*
     def void slackIt(config) {
         this.slackIt(true, config)
     }
+    */
 
     /**
      * Send slack notification using slackSend required jenkins-slack-plugin
